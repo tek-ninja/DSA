@@ -1,5 +1,6 @@
-''' Brute Force Approach'''
-//Brute Force Approach
+#Brute Force Approach to find the maximum sum of a contiguous subarray in an array of integers
+
+
 def bruteForce(nums):
     maxSum = nums[0]
 
