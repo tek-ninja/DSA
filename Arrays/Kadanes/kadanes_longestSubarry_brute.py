@@ -1,4 +1,5 @@
 ''' Brute Force Approach'''
+//Brute Force Approach
 def bruteForce(nums):
     maxSum = nums[0]
 
