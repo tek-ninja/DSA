@@ -21,4 +21,7 @@ def max_subarray(nums):
             maxSum = curSum
             maxL, maxR = L, R 
 
-    print(f"Indices={maxL},{maxR}")
+        return maxSum, maxL, maxR
+    return None
+
+print(max_subarray([-2,3,4,-1,2]))
