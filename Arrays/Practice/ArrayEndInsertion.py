@@ -3,7 +3,7 @@ class Solution:
         arr.append(val)
         return arr
 
-
+//comment
 def main():
     # Read array size
     n = int(input("Enter number of elements: "))
