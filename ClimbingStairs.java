@@ -7,7 +7,8 @@ public class ClimbingStairs {
         System.out.println("Number of distinct ways to climb to the top: " + climbStairs(n));
         sc.close();
     }
-
+    //Recursive approach is always there
+    
     public static int climbStairs(int n) {
         if (n <= 1) return 1;
         int first = 1, second = 1;
